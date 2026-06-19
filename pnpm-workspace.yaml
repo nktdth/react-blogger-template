@@ -1,0 +1,34 @@
+packages:
+  - themes/*
+  - packages/*
+  - scripts
+
+# engineStrict: true
+# strictPeerDependencies: true
+shellEmulator: true
+preferWorkspacePackages: true
+linkWorkspacePackages: true
+enablePrePostScripts: true
+
+minimumReleaseAge: 1440
+minimumReleaseAgeExclude:
+  - "@deox/*"
+  - "blogger-images"
+
+catalog:
+  "@tsdown/css": "^0.22.1"
+  "@types/node": "^25.9.1"
+  "@types/react": "^19.2.15"
+  "@types/react-dom": "^19.2.3"
+  blogger-plugin: "^0.0.12"
+  react: "^19.2.6"
+  react-dom: "^19.2.6"
+  tsdown: "^0.22.1"
+  vite: "^8.0.14"
+
+allowBuilds:
+  "@firebase/util": true
+  "@swc/core": true
+  esbuild: true
+  msw: true
+  protobufjs: true

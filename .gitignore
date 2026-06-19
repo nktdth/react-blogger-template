@@ -1,0 +1,14 @@
+node_modules/
+**/node_modules/
+
+.output/
+dist/
+**/dist/
+
+.turbo/
+**/.turbo/
+
+*.tsbuildinfo
+**/.tmp/
+
+*.log
